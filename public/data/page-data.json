@@ -36,48 +36,127 @@
   "educationData": {
     "education": [
       {
-        "title": "Lipsum Collage - 2010",
-        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form Koramangala collage."
-      },
-      {
-        "title": "Master Diploma - 2012",
-        "description": "Combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
-      },
-      {
-        "title": "Master in User Experience - 2014",
-        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+        "title": "Bachelor's Degree - 2015",
+        "field": "Informatics Engineering",
+        "description": "Universidad Autónoma de San Luis Potosí (Mexico)"
       }
     ],
     "skills": [
       {
-        "name": "Figma",
-        "icon": "/images/home/education-skill/figma-icon.svg",
+        "name": "React",
+        "icon": "/images/home/education-skill/react-icon.svg",
         "rating": 5
       },
       {
-        "name": "Photoshop",
-        "icon": "/images/home/education-skill/photoshop-icon.svg",
+        "name": "TypeScript",
+        "icon": "/images/home/education-skill/typescript-icon.svg",
         "rating": 5
       },
       {
-        "name": "Sketch",
-        "icon": "/images/home/education-skill/sketch-icon.svg",
+        "name": "Next.js",
+        "icon": "/images/home/education-skill/nextjs-icon.svg",
         "rating": 4
       },
       {
-        "name": "Adobe XD",
-        "icon": "/images/home/education-skill/adobe-icon.svg",
+        "name": "Node.js",
+        "icon": "/images/home/education-skill/nodejs-icon.svg",
         "rating": 4
       },
       {
-        "name": "Framer",
-        "icon": "/images/home/education-skill/framer-icon.svg",
+        "name": "HTML",
+        "icon": "/images/home/education-skill/html5-icon.svg",
         "rating": 5
       },
       {
-        "name": "Invasion",
-        "icon": "/images/home/education-skill/invision-icon.svg",
+        "name": "CSS",
+        "icon": "/images/home/education-skill/css3-icon.svg",
         "rating": 3
+      }
+    ],
+    "experienceWith": [
+      {
+        "category": "Frontend",
+        "items": [
+          {
+            "title": "State Management",
+            "description": "TanStack Query (formerly React Query, REST), Apollo Client (GraphQL), Redux"
+          },
+          {
+            "title": "Styling",
+            "description": "Styled-Components & CSS modules (CSS-in-JS), SASS Preprocessor"
+          },
+          {
+            "title": "Platforms",
+            "description": "Retool (Low-code Development)"
+          }
+        ]
+      },
+      {
+        "category": "Backend & DevOps",
+        "items": [
+          {
+            "title": "Frameworks",
+            "description": "Koa, Express"
+          },
+          {
+            "title": "Databases",
+            "description": "PostgreSQL, MySQL, Snowflake"
+          },
+          {
+            "title": "Version Control & CI/CD",
+            "description": "GitLab CI, GitHub Action, Jenkins, Bitbucket"
+          },
+          {
+            "title": "Platforms",
+            "description": "AWS, Docker, GCP, Azure, Vagrant"
+          }
+        ]
+      },
+      {
+        "category": "Web Engineering",
+        "items": [
+          {
+            "title": "Analytics & Event Tracking",
+            "description": "Amplitude, Segment, Google Analytics, Adobe Analytics"
+          },
+          {
+            "title": "Experimentation",
+            "description": "Optimizely (A/B Testing), Unleash (Feature Management)"
+          },
+          {
+            "title": "Performance Optimization",
+            "description": "Lighthouse, Bundle Analyzer"
+          },
+          {
+            "title": "Debugging & Profiling",
+            "description": "React DevTools, Chrome DevTools"
+          },
+          {
+            "title": "AI Tooling",
+            "description": "Claude Code, Cursor IDE, Gemini, ChatGPT"
+          }
+        ]
+      },
+      {
+        "category": "Testing & Methodologies",
+        "items": [
+          {
+            "title": "Libraries",
+            "description": "React Testing Library, Enzyme (Unit Testing)"
+          },
+          {
+            "title": "Frameworks",
+            "description": "Playwright, Cypress, Jest (Integration & E2E Testing)"
+          },
+          {
+            "title": "Methodologies",
+            "description": "Scrum (Agile), Kanban, GitFlow"
+          },
+          {
+            "title": "Platforms",
+            "description": "JIRA, TestRail"
+          }
+        ]
       }
     ]
   },
