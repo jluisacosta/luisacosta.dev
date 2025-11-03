@@ -9,7 +9,7 @@ const index = () => {
           <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
             <div>
               <div className="flex items-center gap-8">
-                <h1>I'm Sruthi</h1>
+                <h1>I'm Jos&eacute; Luis</h1>
                 <div className="wave">
                   <Image
                     src={getImgPath("/images/home/banner/wave-icon.svg")}
@@ -20,12 +20,18 @@ const index = () => {
                   />
                 </div>
               </div>
-              <h1>UI/UX Designer</h1>
+              <h2>Senior Software Engineer</h2>
             </div>
             <p className="text-secondary font-normal max-w-md xl:max-w-xl">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. variations of passages of Lorem Ipsum available, but the
-              majority have suffered alteration
+              With more than a decade of experience building software, my journey
+              has spanned the high-stakes worlds of FinTech, the fast-paced scalability
+              of e-Commerce, and the impactful missions of EdTech.
+            </p>
+            <p className="text-secondary font-normal max-w-md xl:max-w-xl">
+              While I’ve spent recent years mastering the modern frontend with React,
+              TypeScript, and Next.js, my foundation is genuinely full-stack, with
+              hands-on experience in building APIs with Node.js, managing databases,
+              and configuring CI/CD pipelines.
             </p>
           </div>
           <Image
