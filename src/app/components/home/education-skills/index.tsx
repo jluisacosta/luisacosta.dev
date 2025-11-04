@@ -86,7 +86,12 @@ const EducationSkills = () => {
                         key={categoryIndex}
                         className="p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-4"
                       >
-                        <h5 className="font-semibold text-black mb-2">{category?.category}</h5>
+                        <h5 className="font-semibold text-black mb-2 inline-flex">
+                          <div className="no-print w-3.5 h-3.5 rounded-full border-1 bg-white flex items-center justify-center border-primary mr-2 mt-2">
+                              <div className="w-1.5 h-1.5 rounded-full bg-primary"></div>
+                          </div>
+                          {category?.category}
+                        </h5>
                         <div className="flex flex-col gap-3">
                           {category?.items?.map((item: any, itemIndex: any) => {
                             return (

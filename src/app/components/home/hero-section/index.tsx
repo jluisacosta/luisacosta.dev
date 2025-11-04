@@ -25,13 +25,10 @@ const index = () => {
             <p className="text-secondary font-normal max-w-md xl:max-w-xl">
               With more than a decade of experience building software, my journey
               has spanned the high-stakes worlds of FinTech, the fast-paced scalability
-              of e-Commerce, and the impactful missions of EdTech.
-            </p>
-            <p className="text-secondary font-normal max-w-md xl:max-w-xl">
-              While I’ve spent recent years mastering the modern frontend with React,
-              TypeScript, and Next.js, my foundation is genuinely full-stack, with
-              hands-on experience in building APIs with Node.js, managing databases,
-              and configuring CI/CD pipelines.
+              of e-Commerce, and the impactful missions of EdTech. While I’ve spent recent
+              years mastering the modern frontend with React, TypeScript, and Next.js, my
+              foundation is genuinely full-stack, with hands-on experience in building APIs
+              with Node.js, managing databases, and configuring CI/CD pipelines.
             </p>
           </div>
           <Image

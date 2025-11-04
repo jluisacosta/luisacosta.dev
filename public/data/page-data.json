@@ -44,33 +44,39 @@
     "skills": [
       {
         "name": "React",
-        "icon": "/images/home/education-skill/react-icon.svg",
-        "rating": 5
+        "icon": "/images/home/education-skill/react-icon.svg"
       },
       {
         "name": "TypeScript",
-        "icon": "/images/home/education-skill/typescript-icon.svg",
-        "rating": 5
+        "icon": "/images/home/education-skill/typescript-icon.svg"
       },
       {
         "name": "Next.js",
-        "icon": "/images/home/education-skill/nextjs-icon.svg",
-        "rating": 4
+        "icon": "/images/home/education-skill/nextjs-icon.svg"
       },
       {
         "name": "Node.js",
-        "icon": "/images/home/education-skill/nodejs-icon.svg",
-        "rating": 4
+        "icon": "/images/home/education-skill/nodejs-icon.svg"
       },
       {
-        "name": "HTML",
-        "icon": "/images/home/education-skill/html5-icon.svg",
-        "rating": 5
+        "name": "PostgreSQL",
+        "icon": "/images/home/education-skill/pgsql-icon.svg"
       },
       {
-        "name": "CSS",
-        "icon": "/images/home/education-skill/css3-icon.svg",
-        "rating": 3
+        "name": "Jest",
+        "icon": "/images/home/education-skill/jest-icon.svg"
+      },
+      {
+        "name": "Cursor",
+        "icon": "/images/home/education-skill/cursor-icon.svg"
+      },
+      {
+        "name": "Git",
+        "icon": "/images/home/education-skill/git-icon.svg"
+      },
+      {
+        "name": "JIRA",
+        "icon": "/images/home/education-skill/jira-icon.svg"
       }
     ],
     "experienceWith": [
@@ -154,25 +160,21 @@
           },
           {
             "title": "Platforms",
-            "description": "JIRA, TestRail"
+            "description": "TestRail"
           }
         ]
       }
     ]
   },
   "contactLinks": {
-    "socialLinks": [
-      {
-        "title": "Dribble",
-        "href": "/"
-      },
-      {
-        "title": "Facebook",
-        "href": "/"
-      },
+    "socialLinks": [      
       {
         "title": "LinkedIn",
-        "href": "/"
+        "href": "https://www.linkedin.com/in/jluisacosta/"
+      },
+      {
+        "title": "GitHub",
+        "href": "https://github.com/jluisacosta"
       }
     ],
     "contactInfo": [
