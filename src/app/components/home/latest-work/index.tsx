@@ -64,7 +64,7 @@ const LatestWork = () => {
                               width="64"
                               height="64"
                               rx="32"
-                              fill="#FE4300"
+                              fill="#00B4D8"
                             />
                             <path
                               d="M25.6667 25.3333H39M39 25.3333V38.6666M39 25.3333L25.6667 38.6666"
