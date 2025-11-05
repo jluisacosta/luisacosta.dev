@@ -12,7 +12,7 @@ body {
   height: 100%;
 }
 
-button::before {
+.download-link::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -24,7 +24,7 @@ button::before {
   z-index: 0;
 }
 
-button:hover::before {
+.download-link:hover::before {
   height: 100%;
 }
 

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Logo from "../logo";
+import Link from "next/link";
 
 const Header = () => {
     const handleDownloadPDF = () => {
@@ -16,15 +17,14 @@ const Header = () => {
                             <Logo />
                         </div>
 
-                    
-                        <button
-                            onClick={handleDownloadPDF}
-                            className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
-                        >
+                        <Link
+                            className="download-link relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
+                            download="Jose_Luis_Acosta_Resume.pdf"
+                            href="/data/resume.pdf">
                             <span className="relative z-10 text-xl font-medium text-black group-hover:text-white transition-colors duration-300">
                                 Download PDF Resume
                             </span>
-                        </button>
+                        </Link>
                     </div>
                 </nav>
             </div>
