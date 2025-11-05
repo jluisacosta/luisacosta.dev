@@ -10,8 +10,8 @@ const bricolageGrotesque = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "José Luis Acosta Zamora - Senior Software Engineer",
-  description: "Resume",
+  title: "Luis Acosta • Senior Software Engineer",
+  description: "Personal Website",
 };
 
 export default function RootLayout({

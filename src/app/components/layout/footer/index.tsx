@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="flex-grow h-px bg-black" />
           </div>
           <p className="text-secondary">
-            &copy; {new Date().getFullYear()} Jos&eacute; Luis Acosta Zamora. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Luis Acosta - All Rights Reserved.
           </p>
         </div>
       </div>

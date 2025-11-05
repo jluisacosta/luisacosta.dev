@@ -18,6 +18,12 @@
         "label": "jluisacosta.dev",
         "icon": "/images/icon/web-icon.svg",
         "link": "https://jluisacosta.dev"
+      },
+      {
+        "type": "location",
+        "label": "Remote CST (Mexico City)",
+        "icon": "/images/icon/location-icon.svg",
+        "link": "https://maps.app.goo.gl/iwKgoGDnXC5wAurE9"
       }
     ],
     "socialItems": [
