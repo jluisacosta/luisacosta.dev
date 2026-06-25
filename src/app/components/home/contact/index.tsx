@@ -1,45 +1,45 @@
-"use client";
-import { getDataPath, getImgPath } from "@/utils/image";
-import Image from "next/image";
-import Link from "next/link";
-import { useEffect, useState } from "react";
+"use client"
+import { getDataPath, getImgPath } from "@/utils/image"
+import Image from "next/image"
+import Link from "next/link"
+import { useEffect, useState } from "react"
 
 const Contact = () => {
-  const [contactData, setContactData] = useState<any>(null);
-  const [submitted, setSubmitted] = useState(false);
+  const [contactData, setContactData] = useState<any>(null)
+  const [submitted, setSubmitted] = useState(false)
   const [formData, setFormData] = useState({
     name: "",
     number: "",
     email: "",
     message: "",
-  });
+  })
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch(getDataPath("/data/page-data.json"));
-        if (!res.ok) throw new Error("Failed to fetch");
-        const data = await res.json();
-        setContactData(data?.contactLinks);
+        const res = await fetch(getDataPath("/data/page-data.json"))
+        if (!res.ok) throw new Error("Failed to fetch")
+        const data = await res.json()
+        setContactData(data?.contactLinks)
       } catch (error) {
-        console.error("Error fetching services:", error);
+        console.error("Error fetching services:", error)
       }
-    };
+    }
 
-    fetchData();
-  }, []);
+    fetchData()
+  }, [])
 
   const reset = () => {
-    formData.name = "";
-    formData.number = "";
-    formData.email = "";
-    formData.message = "";
-  };
+    formData.name = ""
+    formData.number = ""
+    formData.email = ""
+    formData.message = ""
+  }
 
   const handleSubmit = async (e: any) => {
-    e.preventDefault();
+    e.preventDefault()
 
-    fetch("https://formsubmit.co/ajax/e3f055b84004996c35d15162c44cbde2", {
+    fetch("https://formsubmit.co/hello@luisacosta.dev", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
@@ -51,20 +51,20 @@ const Contact = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        setSubmitted(data.success);
-        reset();
+        setSubmitted(data.success)
+        reset()
       })
       .catch((error) => {
-        console.log(error.message);
-      });
-  };
+        console.log(error.message)
+      })
+  }
   const handleChange = (e: any) => {
-    const { name, value } = e.target;
+    const { name, value } = e.target
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
-    }));
-  };
+    }))
+  }
 
   return (
     <section className="no-print bg-softGray">
@@ -171,7 +171,7 @@ const Contact = () => {
                         {value?.title}
                       </Link>
                     </div>
-                  );
+                  )
                 })}
               </div>
               <div className="flex flex-wrap justify-center gap-5 lg:gap-11 items-end">
@@ -186,7 +186,7 @@ const Contact = () => {
                         {value?.label}
                       </Link>
                     </div>
-                  );
+                  )
                 })}
               </div>
             </div>
@@ -194,7 +194,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
