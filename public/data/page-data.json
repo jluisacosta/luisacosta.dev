@@ -3,9 +3,9 @@
     "contactItems": [
       {
         "type": "email",
-        "label": "hello@jluisacosta.dev",
+        "label": "hello@luisacosta.dev",
         "icon": "/images/icon/mail-icon.svg",
-        "link": "mailto:hello@jluisacosta.dev"
+        "link": "mailto:hello@luisacosta.dev"
       },
       {
         "type": "phone",
@@ -15,9 +15,9 @@
       },
       {
         "type": "website",
-        "label": "jluisacosta.dev",
+        "label": "luisacosta.dev",
         "icon": "/images/icon/web-icon.svg",
-        "link": "https://jluisacosta.dev"
+        "link": "https://luisacosta.dev"
       },
       {
         "type": "location",
@@ -173,7 +173,7 @@
     ]
   },
   "contactLinks": {
-    "socialLinks": [      
+    "socialLinks": [
       {
         "title": "LinkedIn",
         "href": "https://www.linkedin.com/in/jluisacosta/"
@@ -186,8 +186,8 @@
     "contactInfo": [
       {
         "type": "email",
-        "label": "hello@jluisacosta.dev",
-        "link": "mailto:hello@jluisacosta.dev"
+        "label": "hello@luisacosta.dev",
+        "link": "mailto:hello@luisacosta.dev"
       },
       {
         "type": "phone",

@@ -4,7 +4,7 @@
 
 Clone from GitHub 
 ```bash
-git clone git@github.com:jluisacosta/jluisacosta.dev.git
+git clone git@github.com:jluisacosta/luisacosta.dev.git
 ```
 
 Install dependencies:
