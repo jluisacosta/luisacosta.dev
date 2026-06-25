@@ -39,7 +39,7 @@ const Contact = () => {
   const handleSubmit = async (e: any) => {
     e.preventDefault()
 
-    fetch("https://formsubmit.co/9bb6c013c39b82c59e06a79dfc3c6c59", {
+    fetch("https://formsubmit.co/ajax/9bb6c013c39b82c59e06a79dfc3c6c59", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
